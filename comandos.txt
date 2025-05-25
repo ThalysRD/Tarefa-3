@@ -1,0 +1,19 @@
+git init
+git add .
+git commit -m "Initial commit"
+git status
+git add .
+git commit -m "Realiza alterações nos arquivos primeiro e segundo"
+git log
+git log --online 
+git log --online --reverse
+git log --stat
+git log --author="ThalysRD"
+git revert HEAD
+git stash push -m "Alteração temporária"
+git add .
+git commit -m "cria uma nova linha"
+git stash list
+git stash pop
+git reflog
+git tag -a V1.0  17362c0 -m "Versão estável"
